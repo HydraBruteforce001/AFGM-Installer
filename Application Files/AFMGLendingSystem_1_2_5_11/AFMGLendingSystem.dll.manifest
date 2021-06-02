@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AFMGLendingSystem.exe" version="1.2.5.11" publicKeyToken="f9f38bfe85a9a377" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15296">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>076kjCD1Y5lGuuiyLk1YnbcriJkiy0ToaGBFBlaFlGE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AFMGLendingSystem.exe" size="5156160">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CjCqi6Ydl4MbJpkzmDMC2+N5yjJiCxHrGOGUXPXQthM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon.ico" size="28746">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>30jBLKkL1fLGCg3r8fWlCvvQiibaYjYTCDUxS4V1Vws=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=OPREKIN-PC\User" issuerKeyHash="a163762bce046457f93d1efcc466b1f254de5192" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sTiNFs/QZGOCksilO+XycrG/DCN7D0XprWQck8fTamw=</DigestValue></Reference></SignedInfo><SignatureValue>cijN3inOHmZrGyxLICHCviarPUeRQ1U1FS75TV481ceBSP3S7daOvcVRrXjmbFdR6aFjmB7jshoR6UvmROVy1bI3W4xyxgehR7zko0Kg349fT4UD2g0DhLEALPOKfQHt3mdkTW4wut+cFXqq4bV1/sTt6rKG7igS8FAgX+fWF8E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>kglLKg7dbGVlpb+5PrCvMFNeWfALxqw2ZhGOhs7NPzv3e9+tM1SG84l8xtErRxlmsl5y4/SP6+B28iKKhWODUe1zt6FdnhjCPzALIIvMOAH/L+yzl5zopJ/14yAeZvTHCZrN3HY1hTufbUCI+bO3Mg+wcoO7QQPovun/Ks2DvbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6c6ad3c7931c64ade9450f7b230cbfb172f2e53ba5c892826364d0cf168d38b1" Description="" Url=""><as:assemblyIdentity name="AFMGLendingSystem.exe" version="1.2.5.11" publicKeyToken="f9f38bfe85a9a377" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OPREKIN-PC\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Vwko0XE7oVc2I2J8nasteR5Y/nrmAm0aNLu4rvfzwF8=</DigestValue></Reference></SignedInfo><SignatureValue>ELyuMbBHrnR/04Y/1kvNFhk0cp7kZEyCw4/xr3YchpMJQFRcMTvQnwq14GOK3mxVaT0U6JNhHSkShtENgBDGrJ6MaNro28M3cpFXpbEenz57yeAoONTt4l/1iLcLWQzi61zgQAszgnNlG8P138SVoRJfmWDNnVFks3FAzEl0zNQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>kglLKg7dbGVlpb+5PrCvMFNeWfALxqw2ZhGOhs7NPzv3e9+tM1SG84l8xtErRxlmsl5y4/SP6+B28iKKhWODUe1zt6FdnhjCPzALIIvMOAH/L+yzl5zopJ/14yAeZvTHCZrN3HY1hTufbUCI+bO3Mg+wcoO7QQPovun/Ks2DvbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQVekTbEiM/qhGsL4ynArCCzANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ATwBQAFIARQBLAEkATgAtAFAAQwBcAFUAcwBlAHIwHhcNMjEwNTI5MTA1NTA3WhcNMjIwNTI5MTY1NTA3WjApMScwJQYDVQQDHh4ATwBQAFIARQBLAEkATgAtAFAAQwBcAFUAcwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJIJSyoO3WxlZaW/uT6wrzBTXlnwC8asNmYRjobOzT8793vfrTNUhvOJfMbRK0cZZrJecuP0j+vgdvIiioVjg1Htc7ehXZ4Ywj8wCyCLzDgB/y/ss5ec6KSf9eMgHmb0xwmazdx2NYU7n21AiPmztzIPsHKDu0ED6L7p/yrNg721AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfw48yeXhiF3J1/B8Jej5GoiC4jz2pxcvWHvfeNmZdUM9SbkCFH2hD7ByGdxhkxDLCwkBLoALJwXWxetsHvzHj7ZFMdXAJOMicaQi/i/t5vZosRzrFnGbjRpfXSU7iHCiIRemlY/ywnjN06SQbGmqU0KQwfsNrO5reu2o3Rc56rU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
